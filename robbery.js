@@ -49,10 +49,7 @@ function parseWokringHours(workingHours) {
         .slice(0, ROBBERY_DAYS_LIMIT)
         .map(workingHoursToMinutes);
 
-    return [
-        schedule,
-        timeZone
-    ];
+    return [schedule, timeZone];
 }
 
 function flatSchedule(schedule) {
